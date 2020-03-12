@@ -1,0 +1,6 @@
+framework module YuanCoast {
+  umbrella header "YuanCoast-umbrella.h"
+
+  export *
+  module * { export * }
+}

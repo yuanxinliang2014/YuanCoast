@@ -1,0 +1,16 @@
+PODS:
+  - YuanCoast (0.1.0)
+
+DEPENDENCIES:
+  - YuanCoast (from `../`)
+
+EXTERNAL SOURCES:
+  YuanCoast:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YuanCoast: 98afb0e71fd22ed36e5e88459db8d79ed9faa811
+
+PODFILE CHECKSUM: e58a7c2abe91dc98547fd318b34a0f4618e9b737
+
+COCOAPODS: 1.9.1
