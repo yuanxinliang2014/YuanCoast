@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YuanCoast_Example' do
+  pod 'YuanCoast', :path => '../'
+
+  target 'YuanCoast_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
