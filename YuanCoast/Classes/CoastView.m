@@ -9,4 +9,8 @@
 
 @implementation CoastView
 
+- (void)show {
+    NSLog(@"%s", __func__);
+}
+
 @end
