@@ -11,6 +11,10 @@
 
 - (void)show {
     NSLog(@"%s", __func__);
+    NSLog(@"%@", [TestAnimal class]);
+    NSLog(@"%@", [TestTiger class]);
+    NSLog(@"%@", [TestCat class]);
+    NSLog(@"%@", [TestPlant class]);
 }
 
 @end

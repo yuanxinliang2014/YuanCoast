@@ -1,9 +1,9 @@
 {
   "name": "YuanCoast",
-  "version": "0.1.0",
-  "summary": "A short description of YuanCoast.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yuanxinliang/YuanCoast",
+  "version": "0.2.0",
+  "summary": "YuanCoast.",
+  "description": "this is a coast coast coast.",
+  "homepage": "https://github.com/yuanxinliang2014/YuanCoast",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "yuanxinliang": "yuanxinliang@jd.com"
   },
   "source": {
-    "git": "https://github.com/yuanxinliang/YuanCoast.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/yuanxinliang2014/YuanCoast.git",
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YuanCoast/Classes/**/*"
+  "source_files": "YuanCoast/Classes/YuanCoast/**/*",
+  "prefix_header_file": "YuanCoast/Classes/YuanCoast/PrefixHeader.pch"
 }

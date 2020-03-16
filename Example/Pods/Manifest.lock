@@ -1,5 +1,5 @@
 PODS:
-  - YuanCoast (0.1.0)
+  - YuanCoast (0.2.0)
 
 DEPENDENCIES:
   - YuanCoast (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YuanCoast: 98afb0e71fd22ed36e5e88459db8d79ed9faa811
+  YuanCoast: 2e8ab7f789fc5d60c63b3afd4adbaa11a4c6fabe
 
-PODFILE CHECKSUM: e58a7c2abe91dc98547fd318b34a0f4618e9b737
+PODFILE CHECKSUM: ee0fda0129b64f29ea1207a2b80127f602e86aa8
 
 COCOAPODS: 1.9.1

@@ -10,6 +10,12 @@
 #endif
 #endif
 
+#import "CoastView.h"
+#import "TestAnimal.h"
+#import "TestCat.h"
+#import "TestPlant.h"
+#import "TestTiger.h"
+#import "YuanCoast.h"
 
 FOUNDATION_EXPORT double YuanCoastVersionNumber;
 FOUNDATION_EXPORT const unsigned char YuanCoastVersionString[];
