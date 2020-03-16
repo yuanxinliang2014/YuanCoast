@@ -13,4 +13,7 @@ Pod::Spec.new do |s|
   s.source_files = 'YuanCoast/Classes/YuanCoast/**/*'
   # 添加头文件，如同pch
   s.prefix_header_file = 'YuanCoast/Classes/YuanCoast/PrefixHeader.pch'
+  s.vendored_frameworks = 'YuanCoast/Fs/MyContact.framework'
+  s.resource = 'YuanCoast/Fs/MyContact.bundle'
+  s.frameworks = 'UIKit'
 end

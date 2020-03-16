@@ -19,5 +19,8 @@
     "ios": "8.0"
   },
   "source_files": "YuanCoast/Classes/YuanCoast/**/*",
-  "prefix_header_file": "YuanCoast/Classes/YuanCoast/PrefixHeader.pch"
+  "prefix_header_file": "YuanCoast/Classes/YuanCoast/PrefixHeader.pch",
+  "vendored_frameworks": "YuanCoast/Fs/MyContact.framework",
+  "resources": "YuanCoast/Fs/MyContact.bundle",
+  "frameworks": "UIKit"
 }

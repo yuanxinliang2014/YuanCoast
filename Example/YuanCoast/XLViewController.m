@@ -7,6 +7,7 @@
 //
 
 #import "XLViewController.h"
+#import <YuanCoast/YuanCoast.h>
 
 @interface XLViewController ()
 
@@ -18,6 +19,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = UIColor.yellowColor;
+    [[CoastView new] show];
+    
+    UIImageView *iv = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+    iv.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:iv];
+    iv.center = self.view.center;
+    iv.image = [CoastView normalImg];
+    
 }
 
 - (void)didReceiveMemoryWarning

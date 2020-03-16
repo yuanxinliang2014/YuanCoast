@@ -6,6 +6,7 @@
 //
 
 #import "CoastView.h"
+#import <MyContact/MyContact.h>
 
 @implementation CoastView
 
@@ -15,6 +16,10 @@
     NSLog(@"%@", [TestTiger class]);
     NSLog(@"%@", [TestCat class]);
     NSLog(@"%@", [TestPlant class]);
+}
+
++ (UIImage *)normalImg {
+    return [MyTools normalImage];
 }
 
 @end
