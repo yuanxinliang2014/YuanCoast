@@ -22,4 +22,15 @@
     return [MyTools normalImage];
 }
 
++ (UIImage *)originImg {
+//    NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:@"YuanCoast" ofType:@"bundle"]];
+//    NSString *str = [bundle pathForResource:@"baozi@3x" ofType:@"png"];
+//    UIImage *img = [UIImage imageWithContentsOfFile:str];
+//    img = [img imageWithRenderingMode:(UIImageRenderingModeAlwaysOriginal)];
+//    return img;
+    
+    UIImage *img = [UIImage imageNamed:@"YuanCoast.bundle/denglong" inBundle: [NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
+    return img;
+}
+
 @end

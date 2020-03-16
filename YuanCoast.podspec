@@ -18,10 +18,12 @@ Pod::Spec.new do |s|
   s.prefix_header_file = 'YuanCoast/Classes/YuanCoast/PrefixHeader.pch'
   
   # 第三方库
-  s.vendored_frameworks = 'YuanCoast/Fs/MyContact.framework'
+  s.vendored_frameworks = 'YuanCoast/Lib/MyContact.framework'
   
   # bundle资源
-  s.resource = 'YuanCoast/Fs/MyContact.bundle'
+#  s.resource = 'YuanCoast/Lib/MyContact.bundle'
+  
+  s.resources = ['YuanCoast/Lib/MyContact.bundle', 'YuanCoast/Assets/YuanCoast.bundle']
   
   # 系统库
   s.frameworks = 'UIKit'

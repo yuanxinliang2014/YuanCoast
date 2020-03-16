@@ -16,11 +16,14 @@
     "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "YuanCoast/Classes/YuanCoast/**/*",
   "prefix_header_file": "YuanCoast/Classes/YuanCoast/PrefixHeader.pch",
-  "vendored_frameworks": "YuanCoast/Fs/MyContact.framework",
-  "resources": "YuanCoast/Fs/MyContact.bundle",
+  "vendored_frameworks": "YuanCoast/Lib/MyContact.framework",
+  "resources": [
+    "YuanCoast/Lib/MyContact.bundle",
+    "YuanCoast/Assets/YuanCoast.bundle"
+  ],
   "frameworks": "UIKit"
 }

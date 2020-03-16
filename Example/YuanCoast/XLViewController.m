@@ -27,6 +27,7 @@
     [self.view addSubview:iv];
     iv.center = self.view.center;
     iv.image = [CoastView normalImg];
+    iv.image = [CoastView originImg];
     
 }
 

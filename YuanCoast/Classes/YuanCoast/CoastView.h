@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIImage *)normalImg;
 
++ (UIImage *)originImg;
+
 @end
 
 NS_ASSUME_NONNULL_END
